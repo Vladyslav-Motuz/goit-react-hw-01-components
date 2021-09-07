@@ -1,0 +1,31 @@
+.title {
+  max-width: 100%;
+  padding: 30px 80px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  justify-content: center;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  width: 67px;
+}
+.item:nth-child(2n + 1) {
+  background-color: rgb(102, 102, 240);
+}
+.item:nth-child(2n) {
+  background-color: burlywood;
+}
+.stat {
+  margin-bottom: 10px;
+  font-size: 12px;
+}

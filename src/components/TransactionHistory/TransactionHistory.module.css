@@ -1,0 +1,21 @@
+.table {
+  width: 870px;
+  min-width: 400px;
+  border-collapse: collapse;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.theat {
+  background-color: cornflowerblue;
+  color: white;
+}
+.theat th {
+  width: 33%;
+  padding: 20px;
+  border: 1px solid wheat;
+}
+td {
+  width: 33%;
+  padding: 20px;
+  text-align: center;
+}
