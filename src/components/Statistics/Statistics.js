@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types';
 import s from './Statistics.module.css';
-const Statistics = (prop) => {
-    const { stats } = prop;
+const Statistics = ({ stats }) => {
     return (
         <section>
             <h2 className={s.title}>Upload stats</h2>
